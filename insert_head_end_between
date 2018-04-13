@@ -54,7 +54,7 @@ void printList(struct node* node)
 {
 	while(node!=NULL)
 	{
-		cout<<node->data<<"->";
+		cout<<node->data<<"-> ";
 		node=node->next;
 	}
 	cout<<"NULL\n";
